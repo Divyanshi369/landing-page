@@ -1,0 +1,122 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #ffffff;
+}
+
+.Home{
+  width: 100%;
+  height: 100vh;
+  /* background-image: url(../public/images/bg.jpg); */
+  /* background-position: center;*/
+  background-repeat: no-repeat; 
+  background-color: #151515;
+
+}
+.Header{
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: cadetblue;
+}
+.Header .logo{
+  /* color:#fff ; */
+  margin: auto 20px ;
+}
+
+.Header .nav ul {
+  display: flex ;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  /* flex-direction: row; */
+}
+.Header .nav ul li {
+  margin: auto 20px;
+  cursor: pointer;
+  /* float: right; */
+}
+
+.Header .nav ul li a{
+  text-decoration: none;
+  color: #fff ;
+  text-transform: capitalize;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.Header .btn{
+  cursor: pointer;
+  margin: auto 40px;
+}
+.Header .btn .button , .Main button{
+  padding: 10px 30px;
+  border: 1px solid #fff;
+  border-radius: 10px ;
+  font-size: 16px;
+  font-weight: 600;
+  background-color: transparent;
+  cursor: pointer;
+ }
+
+.Main{
+  display: flex;
+  align-items: center;
+  min-height: calc(80vh - 75px);
+ }
+
+.Main .col{
+  color: aliceblue;
+  flex-basis: 50%;
+}
+
+.Main .col h2{
+  margin-left: 30px;
+  margin-top: 25px;
+  font-size: 32px;
+}
+.Main .col p{
+  margin: 20px 30px;
+}
+
+.Main button{
+  margin-left: 30px;
+}
+.col1 {
+  width: 40%;
+}
+.col2{
+  width: 60%;
+}
+.Container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.card {
+  width: 200px;
+  height: 240px;
+  margin: 10px 20px ;
+  display: inline-block;
+  overflow: hidden;
+  /* border: 0.5px solid #151515; */
+  /* background-color: #15151591; */
+}
+.card h3{
+  padding: 2px;
+  color: #fff;
+  background-color: #0000006b;
+  font-size: 15px;
+  /* text-align: center; */
+}
+.card img{
+  /* object-position: center; */
+  margin-left: calc(200px - 170px - 30px/2);
+  height: 200px;
+  width: 170px;
+}
